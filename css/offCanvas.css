@@ -1,0 +1,86 @@
+/* Menu Burger Icon */
+.offCanvas {
+  /* display: flex; */
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* Burger menu */
+#offCanvas_icon {
+  color: white;
+  font-size: 35px;
+  padding-right: 15px;
+}
+
+/* Sergio Logo */
+.logo_offCanvas img {
+  height: 90px;
+}
+
+/* Social offCanvas */
+.offCanvas_socials {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* iconify offCanvas */
+.offCanvas_socials iconify-icon {
+  font-size: 40px;
+}
+
+/* class added with offCanvas.js when offcanvas is open */
+.offcanvas-open {
+  overflow: hidden;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with offCanvas.js */
+  position: fixed;
+  /* Stay in place */
+  z-index: 999;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  /* Open the menu from right */
+  background-color: #1e1e1e;
+  /* Black*/
+  overflow: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #ff9416;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

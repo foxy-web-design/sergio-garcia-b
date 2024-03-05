@@ -1,0 +1,92 @@
+/*MEDIA QUERIES*/
+/*Smartphones*/
+@media (min-width: 320px) {}
+
+
+/*Tablets*/
+@media (min-width: 634px) {
+
+    /* text main banner */
+    .text_banner {
+        padding-left: 70px;
+    }
+
+    /* IMG Acerca de */
+    .designer_1 img {
+        height: 250px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 0;
+
+    }
+
+    /* semicircle (acerca de) */
+    .semicircle img {
+        top: 850px;
+        height: 250px;
+    }
+
+    /* IMG Muestrate */
+    .designer_2 img {
+        height: 300px;
+    }
+
+    /* Button "VER MAS" */
+    .portafolio_button {
+        top: 100px;
+        width: 210px;
+    }
+
+    /* Button "Persons IMG  holding the button" */
+    .portafolio_button_image img {
+        width: 300px;
+        top: 32px;
+        left: -54px;
+    }
+}
+
+
+/*Laptop*/
+@media (min-width: 1024px) {
+    .offCanvas {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+    }
+
+    .socials {
+        font-size: 60px;
+        margin-left: 20%;
+    }
+
+    /* IMG Acerca de */
+    .designer_1 img {
+        height: 380px;
+        margin: 0 0;
+    }
+
+    /* IMG Muestrate */
+    .designer_2 img {
+        height: 400px;
+    }
+
+    /* Button "VER MAS" */
+    .portafolio_button {
+        top: 0;
+    }
+
+    /* footer socials */
+    .socials_footer {
+        font-size: 60px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 1440px) {}
+
+/*Large Desktop*/
+@media (min-width: 2560px) {}
