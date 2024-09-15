@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         speed: 800,
         gap: 5,
         autoplay: true,
+        interval: 2500,
         perPage: 1,
         perMove: 1,
     }).mount();
