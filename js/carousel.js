@@ -9,6 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
         autoplay: true,
         perPage: 1,
         perMove: 1,
-        lazyLoad: false,
     }).mount();
 });
