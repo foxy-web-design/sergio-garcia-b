@@ -17,3 +17,6 @@ https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechi
 
 Vector Source (SVG):
 https://undraw.co/
+
+Splide (Carousel):
+https://splidejs.com/
