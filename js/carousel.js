@@ -1,6 +1,5 @@
 /* Script para crear y configurar el carrusel con Splide js */
-
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
     new Splide('#images-carousel', {
         type: 'loop',
         pagination: true,
