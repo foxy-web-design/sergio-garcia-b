@@ -12,14 +12,20 @@
     }
 
     /* IMG Acerca de */
-    .designer_1 img {
+    #images-carousel {
+        width: 290px;
+        height: 370px;
+        padding-bottom: 0;
+    }
+
+    /* .designer_1 img {
         height: 250px;
         object-fit: cover;
         display: block;
         margin: 0 auto;
         padding-bottom: 0;
 
-    }
+    } */
 
     /* semicircle (acerca de) */
     .semicircle img {
@@ -63,10 +69,16 @@
     }
 
     /* IMG Acerca de */
-    .designer_1 img {
+    #images-carousel {
+        width: 400px;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    /* .designer_1 img {
         height: 380px;
         margin: 0 0;
-    }
+    } */
 
     /* IMG Muestrate */
     .designer_2 img {

@@ -92,13 +92,42 @@
         <div class="container acerca">
 
           <div class="row">
-            <div class="col-12 col-md-5 designer_1">
+            <!-- <div class="col-12 col-md-5 designer_1">
               <img loading="lazy" src="/images/designer-1.svg" alt="web designer">
+            </div> -->
+
+            <!-- Carousel -->
+            <div id="images-carousel" class="splide col-12 col-md-5" role="group" aria-label="Carrusel de imágenes">
+              <div class="splide__arrows">
+                <!-- arrow prev -->
+                <button class="splide__arrow splide__arrow--prev opacity-0">
+                </button>
+                <!-- arrow next -->
+                <button class="splide__arrow splide__arrow--next opacity-0">
+                </button>
+              </div>
+              
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide" data-splide-interval="2500">
+                    <img src="/images/sergio1.webp" alt="" class="">
+                  </li>
+                  <li class="splide__slide" data-splide-interval="2500">
+                    <img src="/images/sergio2.webp" alt="" class="">
+                  </li>
+                  <li class="splide__slide" data-splide-interval="2500">
+                    <img src="/images/sergio3.webp" alt="" class="">
+                  </li>
+                </ul>
+              </div>
             </div>
+
 
             <div class="col-12 col-md-7 acerca_text">
               <h2>Acerca de</h2>
-              <p>Soy Sergio Garcia, Ing. Electricista, un joven amante del Desarrollo Web y nuevas técnologias cómo la IA y Bitcoin, trabajo con el equipo de <a href="https://foxy.com.co/"target="_blank">Foxy Web Design</a>
+              <p>Soy Sergio Garcia, Ing. Electricista, un joven amante del Desarrollo Web y nuevas técnologias cómo la
+                IA y Bitcoin, trabajo con el equipo de <a href="https://foxy.com.co/" target="_blank">Foxy Web
+                  Design</a>
                 desde el año 2020.</p>
               <br>
               <p class="datos">Ubicación:</p>
@@ -213,6 +242,9 @@
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <!-- Button: Back to Top -->
   <script src="/js/backTop.js"></script>
+  <!-- Carousel -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="/js/carousel.js"></script>
 </body>
 
 </html>

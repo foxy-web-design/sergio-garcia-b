@@ -4,13 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #3F3D56;  
+    font-family: 'Poppins', sans-serif;
+    background-color: #3F3D56;
 }
 
-body h1, h2, h3, h4, h5 {
+body h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Sora', sans-serif;
-  
+
 }
 
 
@@ -64,7 +68,7 @@ a:hover {
 header {
     height: 100px;
     width: 100%;
-    z-index: 100;   
+    z-index: 100;
 }
 
 .logo {
@@ -100,8 +104,9 @@ header {
 .menu-desktop a:hover,
 .menu-desktop a:focus,
 .menu-desktop a:active {
-    color: #ff9416;  
+    color: #ff9416;
 }
+
 /* HEADER - END */
 
 
@@ -126,7 +131,7 @@ header {
     font-size: 35px;
 }
 
-iconify-icon {  
+iconify-icon {
     padding: 0 5px;
     transition: transform 0.2s ease-in-out;
     /* Zoom effect - Transition */
@@ -160,14 +165,35 @@ iconify-icon:hover {
     padding: 100px 30px 100px 30px;
 }
 
+/* Slider */
+#images-carousel {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.splide__track {
+    border-radius: 10px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Slider img */
+.splide__slide img {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
 /* IMG Acerca de */
-.designer_1 img {
+/* .designer_1 img {
     height: 250px;
     object-fit: cover;
     display: block;
     margin: 0 auto;
     padding-bottom: 30px;
-}
+} */
 
 /* BOLD for ubicacion/telef/email/github*/
 .datos {
@@ -395,24 +421,36 @@ footer h2 {
 
 /* BUTTON: BACK TO TOP - START */
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 30px; /* Place the button at the bottom of the page */
-    right: 15px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    background: rgba(100, 100, 100, 0.4); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 30px;
+    /* Place the button at the bottom of the page */
+    right: 15px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    background: rgba(100, 100, 100, 0.4);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
     width: 40px;
     height: 40px;
-    border-radius: 100%; /* Rounded corners */
-    font-size: 22px; /* Increase font size */
+    border-radius: 100%;
+    /* Rounded corners */
+    font-size: 22px;
+    /* Increase font size */
     transition: all 0.3s ease;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  #myBtn:hover {
-    background-color: #000; /* Add a dark-grey background on hover */
-  }
-/* BUTTON BACK TO TOP - END */  
+#myBtn:hover {
+    background-color: #000;
+    /* Add a dark-grey background on hover */
+}
+
+/* BUTTON BACK TO TOP - END */

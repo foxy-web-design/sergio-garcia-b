@@ -1,6 +1,8 @@
 # sergio-garcia-b
 URL: https://sergiogarciab.com/
 
+## use "Go Live" extension to run localhost server
+
 Figma:
 https://www.figma.com/file/tSxFGYon80DCREklRxY04S/sergiogarciab.com?type=design&node-id=2-4&mode=design&t=CnZ3eIbwmQZ6lzkn-0
 
